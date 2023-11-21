@@ -1,0 +1,13 @@
+version: '3.4'
+
+networks:
+backend:
+
+services:
+
+
+  minimalapistudent:
+    image: ${DOCKER_REGISTRY-}minimalapistudent
+    build:
+      context: .
+      dockerfile: MinimalApiStudent\Dockerfile

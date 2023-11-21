@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using Sieve.Attributes;
+using System.ComponentModel.DataAnnotations;
 
 namespace MinimalApiStudent.Models
 {
@@ -6,6 +7,8 @@ namespace MinimalApiStudent.Models
     {
         [Key]
         public int StudentId { get; set; }
+
+       
         public string StudentName { get; set; }
         public List<Attendance> Attendances { get; set; }
     }

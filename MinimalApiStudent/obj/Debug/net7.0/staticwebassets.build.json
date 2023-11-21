@@ -1,11 +1,19 @@
 {
   "Version": 1,
-  "Hash": "7J84Nan0RjTl89UIpZwwqJxA8oMAbn5Oiy2+HGwRNv8=",
+  "Hash": "rdno7UP1gAHGO8ajRKgbPAK12/xNE+9FSvOBI5domRU=",
   "Source": "MinimalApiStudent",
   "BasePath": "_content/MinimalApiStudent",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "MinimalApiStudent\\wwwroot",
+      "Source": "MinimalApiStudent",
+      "ContentRoot": "C:\\Users\\admin\\source\\repos\\MinimalApiStudent\\MinimalApiStudent\\wwwroot\\",
+      "BasePath": "_content/MinimalApiStudent",
+      "Pattern": "**"
+    }
+  ],
   "Assets": []
 }
